@@ -1,4 +1,4 @@
-var suman-plugin =
+var scePlugin =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
