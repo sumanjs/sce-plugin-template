@@ -69,17 +69,38 @@ var scePlugin =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
-
-class Foo {
-
-
-}
-/* harmony export (immutable) */ __webpack_exports__["Foo"] = Foo;
+Object.defineProperty(exports, "__esModule", { value: true });
+var CodeGenerator = (function () {
+    function CodeGenerator() {
+        this.rawCode = '';
+        this.styledCode = '';
+        this.code = [];
+    }
+    CodeGenerator.prototype.initialize = function () {
+    };
+    CodeGenerator.prototype.getRawGeneratedCode = function () {
+        return 'donkey kong (my-special-plugin) ' + this.code.join(' ');
+    };
+    CodeGenerator.prototype.getStyledGeneratedCode = function () {
+        return this.styledCode;
+    };
+    CodeGenerator.prototype.onComplete = function (x) {
+        this.code.push('complete');
+        x.updateCode();
+    };
+    CodeGenerator.prototype.onNextEvent = function (ev, x) {
+        this.code.push(this.code.length);
+        x.updateCode();
+    };
+    CodeGenerator.scePlugin = true;
+    CodeGenerator.pluginName = 'my-special-plugin';
+    return CodeGenerator;
+}());
+exports.CodeGenerator = CodeGenerator;
 
 
 /***/ })
