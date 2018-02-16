@@ -1,8 +1,9 @@
 import { SceEvent, SceMain, Updateable } from "sce-plugin-typings";
-export declare class CodeGenerator implements SceMain {
+export declare class SCEPlugin implements SceMain {
     private rawCode;
     private styledCode;
     static scePlugin: boolean;
+    static pluginType: string;
     static pluginName: string;
     code: any;
     constructor();
@@ -12,6 +13,3 @@ export declare class CodeGenerator implements SceMain {
     onComplete(x: Updateable): void;
     onNextEvent(ev: SceEvent, x: Updateable): void;
 }
-
-
-

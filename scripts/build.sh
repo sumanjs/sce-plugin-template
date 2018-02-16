@@ -2,7 +2,7 @@
 
 set -e;
 
-tsc;
-webpack;
+tsc             # transpile index.ts
+webpack         # build it
 
 # lulz, that's it

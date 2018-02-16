@@ -1,10 +1,11 @@
 import {SceEvent, SceMain, Updateable} from "sce-plugin-typings";
 
-export class CodeGenerator implements SceMain {
+export class SCEPlugin implements SceMain {
   
   private rawCode = '';
   private styledCode = '';
   public static scePlugin = true;
+  public static pluginType = 'code-generator';
   public static pluginName = 'my-special-plugin';
   public code = [] as any;
   
@@ -19,7 +20,7 @@ export class CodeGenerator implements SceMain {
   getRawGeneratedCode() {
     // return this.rawCode;
     
-    return 'donkey kong (my-special-plugin) ' + this.code.join(' ');
+    return 'donkey song (my-special-plugin) ' + this.code.join(' ') + 'fppnare';
   }
   
   getStyledGeneratedCode() {

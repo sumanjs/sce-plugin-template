@@ -24,6 +24,7 @@
   "devDependencies": {
     "@types/core-js": "^0.9.46",
     "@types/node": "^9.4.6",
+    "http-server": "^0.11.1",
     "sce-plugin-typings": "latest",
     "ts-loader": "^3.5.0"
   },
