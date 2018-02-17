@@ -6,6 +6,7 @@ export declare class SCEPlugin implements SceMain {
     static pluginType: string;
     static pluginName: string;
     code: any;
+    defaultCode: string;
     constructor();
     initialize(): void;
     getRawGeneratedCode(): string;

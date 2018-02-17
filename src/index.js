@@ -5,11 +5,12 @@ var SCEPlugin = (function () {
         this.rawCode = '';
         this.styledCode = '';
         this.code = [];
+        this.defaultCode = 'very special cooode.';
     }
     SCEPlugin.prototype.initialize = function () {
     };
     SCEPlugin.prototype.getRawGeneratedCode = function () {
-        return 'donkey song (my-special-plugin) ' + this.code.join(' ') + 'fppnare';
+        return 'ZZZZ3 (my-special-plugin) ' + this.code.join(' ') + 'fppnare';
     };
     SCEPlugin.prototype.getStyledGeneratedCode = function () {
         return this.styledCode;

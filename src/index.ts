@@ -8,6 +8,7 @@ export class SCEPlugin implements SceMain {
   public static pluginType = 'code-generator';
   public static pluginName = 'my-special-plugin';
   public code = [] as any;
+  public defaultCode = 'very special cooode.';
   
   constructor() {
   
@@ -20,7 +21,7 @@ export class SCEPlugin implements SceMain {
   getRawGeneratedCode() {
     // return this.rawCode;
     
-    return 'donkey song (my-special-plugin) ' + this.code.join(' ') + 'fppnare';
+    return 'ZZZZ3 (my-special-plugin) ' + this.code.join(' ') + 'fppnare';
   }
   
   getStyledGeneratedCode() {
