@@ -6,7 +6,7 @@ export class SCEPlugin implements SceMain {
   private styledCode = '';
   public static scePlugin = true;
   public static pluginType = 'code-generator';
-  public static pluginName = 'my-special-plugin';
+  public static pluginName = 'va va voom' || 'my-special-plugin';
   public code = [] as any;
   public defaultCode = 'very special cooode.';
   

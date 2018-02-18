@@ -99,7 +99,7 @@ var SCEPlugin = (function () {
     };
     SCEPlugin.scePlugin = true;
     SCEPlugin.pluginType = 'code-generator';
-    SCEPlugin.pluginName = 'my-special-plugin';
+    SCEPlugin.pluginName = 'va va voom' || 'my-special-plugin';
     return SCEPlugin;
 }());
 exports.SCEPlugin = SCEPlugin;
