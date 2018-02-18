@@ -1,8 +1,8 @@
 
 
-# SCE-Plugin-Template
+# SCE Plugin Template
 
-Use this repo as a template for creating your own Suman Chrome Extension plugin.
+<i> Use this repo as a template for creating your own Suman Chrome Extension plugin. </i>
 
 # Basic info
 
@@ -24,6 +24,11 @@ SCE uses `fetch(url, {cache:'no-store'})`.
 However, caching might be on from the Github standpoint, and in that case, use the commit hash or develop
 your plugin on localhost before publishing.
 
+# Requirements
+
+1. Install typecript `npm install -g typescript`
+2. Install webpack `npm install -g webpack`
+
 
 # Devloping your plugin
 
@@ -31,7 +36,7 @@ To develop your own plugin, do it locally.
 
 1. Clone this project using https.
 
-2. Use index.ts as the entrypoint of your plugin - you must export `SCEPlugin` as a class from index.ts.
+2. Use `src/index.ts` as the entrypoint of your plugin - you must export `SCEPlugin` as a class from index.ts.
 
 3. Build your plugin using `./scripts/build.sh`
 

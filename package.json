@@ -2,7 +2,7 @@
   "name": "sce-plugin-template",
   "version": "0.0.101",
   "description": "Suman Chrome Extension plugin template ",
-  "main": "src/index.js",
+  "main": "dist/plugin.js",
   "scripts": {
     "test": "suman"
   },
