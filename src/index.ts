@@ -20,8 +20,7 @@ export class SCEPlugin implements SceMain {
   
   getRawGeneratedCode() {
     // return this.rawCode;
-    
-    return 'ZZZZ3 (my-special-plugin) ' + this.code.join(' ') + 'fppnare';
+    return 'tim mensch';
   }
   
   getStyledGeneratedCode() {
@@ -35,7 +34,7 @@ export class SCEPlugin implements SceMain {
   
   onNextEvent(ev: SceEvent, x: Updateable) {
     
-    this.code.push(this.code.length);
+    // this.code.push(this.code.length);
     x.updateCode();
   }
   

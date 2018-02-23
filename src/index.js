@@ -10,7 +10,7 @@ var SCEPlugin = (function () {
     SCEPlugin.prototype.initialize = function () {
     };
     SCEPlugin.prototype.getRawGeneratedCode = function () {
-        return 'ZZZZ3 (my-special-plugin) ' + this.code.join(' ') + 'fppnare';
+        return 'tim mensch';
     };
     SCEPlugin.prototype.getStyledGeneratedCode = function () {
         return this.styledCode;
