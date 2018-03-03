@@ -1,3 +1,5 @@
+'use strict';
+
 import {SceEvent, SceMain, Updateable} from "sce-plugin-typings";
 
 export class SCEPlugin implements SceMain {
@@ -20,7 +22,7 @@ export class SCEPlugin implements SceMain {
   
   getRawGeneratedCode() {
     // return this.rawCode;
-    return 'tim mensch';
+    return 'so much code right now';
   }
   
   getStyledGeneratedCode() {

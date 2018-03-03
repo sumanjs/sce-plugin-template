@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 Object.defineProperty(exports, "__esModule", { value: true });
 var SCEPlugin = (function () {
     function SCEPlugin() {
@@ -10,7 +10,7 @@ var SCEPlugin = (function () {
     SCEPlugin.prototype.initialize = function () {
     };
     SCEPlugin.prototype.getRawGeneratedCode = function () {
-        return 'tim mensch';
+        return 'so much code right now';
     };
     SCEPlugin.prototype.getStyledGeneratedCode = function () {
         return this.styledCode;
@@ -20,7 +20,6 @@ var SCEPlugin = (function () {
         x.updateCode();
     };
     SCEPlugin.prototype.onNextEvent = function (ev, x) {
-        this.code.push(this.code.length);
         x.updateCode();
     };
     SCEPlugin.scePlugin = true;
