@@ -1,5 +1,5 @@
 {
-  "name": "sce-plugin-template",
+  "name": "@sce/plugin-template",
   "version": "0.0.101",
   "description": "Suman Chrome Extension plugin template ",
   "main": "dist/plugin.js",

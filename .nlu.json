@@ -1,7 +1,8 @@
 {
+  "npm-link-up": true,
   "linkToItself": false,
   "searchRoots": [
-    "$HOME/WebstormProjects/oresoftware/sumanjs"
+    ".."
   ],
   "ignore": [
     "/node_modules/",
@@ -10,7 +11,7 @@
     "/target/"
   ],
   "list": [
-    "sce-plugin-typings"
+    "@sce/plugin-typings"
   ],
   "comments":[
     "not comments at this time :)"
