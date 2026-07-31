@@ -2,6 +2,8 @@
 
 # SCE Plugin Template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sumanjs/sce-plugin-template.svg)](https://greenkeeper.io/)
+
 <i> Use this repo as a template for creating your own Suman Chrome Extension plugin. </i>
 
 # Basic info
@@ -52,9 +54,3 @@ To develop your own plugin, do it locally.
 See this video for a step-by-step guide to developing your own plugin for SCE:
 
 [tbd]
-
-
-
-
-
-
